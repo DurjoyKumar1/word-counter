@@ -1,9 +1,10 @@
-document.addEventListener('DOMContentLoaded', function() {
+//document.addEventListener('DOMContentLoaded', function() {
 let textInput= document.querySelector("#text-place");
 let cnt =document.querySelector(".counter");
 
 let counter = 1;
-textInput.addEventListener('input', function(){
+function wordCounter(){
+textInput.addEventListener('input', ()=>{
     let allWord = textInput.value;
     for(let w of allWord){
         if (w===" "){
@@ -14,4 +15,6 @@ textInput.addEventListener('input', function(){
     console.log(cnt.innerText=cnt.innerText + counter);
 
 });
-});
+}
+wordCounter();
+//});
