@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.word-space{
+    width:80%;
+    margin:50px auto;
+}
+
+#text-place{
+    color:rgb(255, 255, 255);
+    font-size:40px;
+    text-align:center;
+    height:600px;
+    width:100%;
+    background-color: rgb(228, 207, 26);
+   
+}
+
+.counter{
+    margin-top:20px;
+    text-align: center;
+    font-size:50px;
+}
