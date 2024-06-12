@@ -8,13 +8,15 @@
     margin:50px auto;
 }
 
+
 #text-place{
     color:rgb(255, 255, 255);
-    font-size:40px;
+    font-size:30px;
     text-align:center;
-    height:600px;
+    height:500px;
     width:100%;
     background-color: rgb(228, 207, 26);
+    
    
 }
 
@@ -22,4 +24,40 @@
     margin-top:20px;
     text-align: center;
     font-size:50px;
+}
+
+
+#text-place::placeholder {
+    color: rgba(255, 255, 255, 0.904);
+    text-align: center;
+    
+    
+}
+
+.reset{
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color: brown;
+    height:50px;
+    width:200px;
+    color:white;
+    font-size:25px;
+    border-radius: 50px;
+    border:3px solid rgb(5, 5, 5);
+}
+
+.reset:hover{
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color: rgb(255, 0, 0);
+    height:50px;
+    width:200px;
+    color:white;
+    font-size:25px;
+    border-radius: 50px;
+    border:3px solid rgb(5, 5, 5);
 }
